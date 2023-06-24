@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="mk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proekt</title>
+    <link rel="stylesheet" href="proekt.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="sp"><img src="logo-2067396_1280.png" class="logo" alt="logo"></div>
+        <div class="sp">
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <nav>
+              <ul>
+                <li class="nav"><a href="index.html#personal">Персонална страна</a></li>
+                <li class="nav"><a href="index.html#education">Образование</a></li>
+                <li class="nav"><a href="index.html#experience">Искуство</a></li>
+                <li class="nav"><a href="index.html#skills">Вештини</a></li>
+                <li class="nav"><a href="contact.html">Контакт</a></li>
+              </ul>
+            </nav>
+            <label for="nav-toggle" class="nav-toggle-label">
+              <span></span>
+            </label>
+        </div>
+      </header><br><br>
+    <!-- Main  -->
+    <main>
+        <section class="section-one" id="personal">
+            <div class="personal-container">
+               <h1 class="personal-container-title">Никола Божиновски</h1>
+               <p class="personal-container-text">
+                ПЕРСОНАЛНА ВЕБ СТРАНА
+               </p>
+               <a href="contact.html" class="btn">Контакт</a>
+            </div>
+        </section>
+        <div id="education"></div>
+        <!-- section-->
+        <section class="section-two">
+            <h2 class="section-two-title">Образование</h2>
+            <div class="education">
+                <div class="education-container">
+                    <h4><a href="https://www.udemy.com/course/understandingc/" class="container-title-ahref">Основи на програмирање: Разбирање на C#</a></h4>
+                    <p>Курсот на Udemy од Jesse Dietrichson го прошири моето знаење за основите на JavaScript, и голем број напредни концепти.Исто така го зголеми моето разбирање за C# програмирањето, принципите на програмирање и создавање на стабилни програми.</p>
+                </div>
+                <div class="education-container">
+                    <h4><a href="https://mihajlopupin.mk/" class="container-title-ahref">Михајло Пупин</a></h4>
+                    <p>Четиригодишно образование со 23 стручни предмети од електротехника, електроника, автоматика и компјутерска техника, околу 400 часа практична настава и над 500 часа работа со компјутери во 5 компјутерски училници со пристап на интернет. </p>
+                </div>
+                <div class="education-container">
+                    <h4><a href="https://www.finki.ukim.mk/en" class="container-title-ahref">ФИНКИ</a></h4>
+                    <p>Студентската програма обезбедува голема професионална флексибилност и широк избор на работни места секаде каде постои потреба од примена на вештини за решавање на проблеми, како и вештини за критичко размислување, кои ќе ги користат за решавање на комплексни пресметковни проблеми. </p>
+                </div>
+            </div>
+        </section> 
+
+        <!-- section 3 (slide-show?)-->
+        <section class="split container" id="experience">
+            <div class="slideshow">
+                <button class="slide-btn slide-btn-1" onclick="changeButtonLink('http://www.relisys.com.mk/')"></button>
+                <button class="slide-btn slide-btn-2" onclick="changeButtonLink('https://www.mojservis.mk/')"></button>
+                <button class="slide-btn slide-btn-3" onclick="changeButtonLink('https://setra.mk/')"></button>
+                <button class="slide-btn slide-btn-4" onclick="changeButtonLink('https://www.anhoch.com/')"></button>
+                <div class="slideshow-wrapper">
+                    <div class="slide"> <img class="slide-img" src="relysis.svg"> </div>
+                    <div class="slide"> <img class="slide-img" src="setec.jpg"> </div>
+                    <div class="slide"> <img class="slide-img" src="setra.png"> </div>
+                    <div class="slide"> <img class="slide-img" src="anhoch.png"> </div>
+                </div> 
+            </div>
+            <!-- llllllllllllll -->
+            <div class="slide-show">
+                    <h2>РАБОТНО ИСКУСТВО</h2>
+                    <p class="slide-show-container-text">
+                        Во овие компании, имав можност да стекнам обемно знаење и вредно искуство. Секоја организација ми обезбеди уникатни предизвици, дозволувајќи ми да растам и професионално и лично. Преку работните искуства, ги усовршив своите вештини, развив длабоко разбирање за најдобрите практики во индустријата. Ова разновидносно искуство ме опреми со целосна вештина и стабилна основа за успешност во секое професионално окружување.
+                    </p>
+                    <a class="btn" id="buttonCompany">Оди Кон Компанијата</a>
+            </div>
+        </section>
+
+        <section class="section-four" id="skills">
+            <h2 class="start-p-title">ВЕШТИНИ</h2>
+            <div class="skills-parent">
+                <div class="skills">
+                    <h4 class="skills-title">ХОБИ И ИНТЕРЕСИ</h4>
+                    <p>
+                        LEETCODE<br>Решавање на интересни и предизвикувачки програмски задачи во моето слободно време<br>ШАХ<br>Играње на шах во слободно време, со ранг 1300 во Bullet и Blitz на chess.com
+                    </p>
+                </div>
+                <div class="skills">
+                    <h4 class="skills-title">Комуникација со соработници</h4>
+                    <p>Стекнато искуство преку комуницијрање со соученици преку проекти и пракси каде што беше потребно многу размена на информации за да се изврши точно одредена задача.</p>
+                </div>
+                <div class="skills">
+                    <h4 class="skills-title">Волонтирање</h4>
+                    <p>Помагање со организација на натпревар во СЕТУ "Михајло Пупин", изработка на апликација за ден на електрониката во СЕТУ "Михајло Пупин" која ја вршеше пресметката на бодови за време на натпреварот кој се одржа.</p>
+                </div>
+                <div class="skills">
+                    <h4 class="skills-title">Дигитални Вештини</h4>
+                    <p>МАЈКРОСОФТ <br>Microsoft PowerPoint | Microsoft Excel | Microsoft Word
+                    <br>ПРОГРАМИРАЊЕ <br> C++ | C# | Python | JavaScript | PHP
+                    <br>ДРУГИ ВЕШТИНИ <br> Team-work oriented | Социјални мрежи | Мотивираност за работа </p>
+                </div>
+                <div class="skills">
+                    <h4 class="skills-title">Јазични Вештини</h4>
+                    <p>
+                        Мајчин јазик: Macedonian
+                        <br>
+                        Други јазици: English <br>
+                        Near-native level of proficiency, with excellent grammar, pronunciation, and vocabulary skills.
+                        Capable of engaging in complex conversations, expressing ideas eloquently, and understanding a wide range of written and spoken English content.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <!-- Footer -->
+    <footer>
+        <br><hr><br>
+        <div class="footer">
+            <div class="row">
+                <p class="footer-child"> (+389) 77561XXX </p>
+                <p class="footer-child"> | </p>
+                <p class="footer-child">  bozinowsky@gmail.com </p>
+            </div>
+            <div>
+                <p class="footer-child">@Никола Божиновски </p>
+            </div>
+        </div>
+        <br><hr><br>
+    </footer>
+</body>
+<script>
+    //Dont mind this bs
+    document.getElementById("buttonCompany").href = 'http://www.relisys.com.mk/';
+    function changeButtonLink(link)
+    {
+            document.getElementById("buttonCompany").href = link;
+    }
+    document.body.addEventListener('click', function(e) {
+        if (!e.target.closest('.slideshow') && e.target.id !== 'buttonCompany') {
+            document.getElementById("buttonCompany").href = 'http://www.relisys.com.mk/';
+        }
+    });
+    document.body.addEventListener('contextmenu', function(e){
+        if (!e.target.closest('.slideshow') && e.target.id !== 'buttonCompany') {
+            document.getElementById("buttonCompany").href = 'http://www.relisys.com.mk/';
+        }
+    });
+
+</script>
+</html>
